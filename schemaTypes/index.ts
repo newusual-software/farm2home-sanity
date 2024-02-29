@@ -6,6 +6,8 @@ import footer from '../schemas/footer'
 import about from '../schemas/about'
 import termsAndCondition from '../schemas/termsAndCondition'
 import privacyPolicy from '../schemas/privacyPolicy'
+import faq from '../schemas/faq'
+import contactDetails from '../schemas/contactDetails'
 
 export const schemaTypes = [
   navigation,
@@ -15,5 +17,7 @@ export const schemaTypes = [
   footer,
   about,
   termsAndCondition,
-  privacyPolicy
+  privacyPolicy,
+  faq,
+  contactDetails
 ]
